@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_root" android:background="@color/bar_grey" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/videoParent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.leeson.image_pickers.views.FullScreenVideoView android:id="@id/videoView" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/iv_src" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
